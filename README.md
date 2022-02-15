@@ -8,12 +8,12 @@
 serverless deploy
 ```
 
-## endpoints:
+## Live endpoints:
 ```
-POST - /movies ## Add Movie
-GET - /movies ## List all Movies
-PUT - /movies ## Update Movie
-DELETE - /movies ## Delete Movie
+POST - https://i0n3or5vx2.execute-api.ap-south-1.amazonaws.com/dev/movies ## Add item
+GET - https://i0n3or5vx2.execute-api.ap-south-1.amazonaws.com/dev/movies ## list all items
+PUT - https://i0n3or5vx2.execute-api.ap-south-1.amazonaws.com/dev/movies  ## update item
+DELETE - https://i0n3or5vx2.execute-api.ap-south-1.amazonaws.com/dev/movies ## delete item
 ```
 
 ## Postman Collection
