@@ -1,0 +1,20 @@
+Resources:
+  myDynamoDBTable:    # Logical Id of the resource
+    Type: AWS::DynamoDB::Table
+
+    Properties:
+      AttributeDefinitions:
+        - 
+          AttributeName: "title"
+          AttributeType: "S"
+
+      KeySchema:
+        - AttributeName: "title"
+          KeyType: "HASH"
+
+      TableName: "Moviess"     
+
+      ProvisionedThroughput:   # Optional, can be skipped
+        ReadCapacityUnits: 10
+        WriteCapacityUnits: 10
+
